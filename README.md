@@ -2,31 +2,68 @@
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
 
 <p align="center">
-  <img src="Logo.png" />
+  <img src="Logo.png" width="200" alt="MyAssistant Logo"/>
 </p>
 
 # 🤖 MyAssistant
-This is a telegram Bot, made in Python, which can control your computer
+**MyAssistant** is a **Python**-based Telegram bot that allows you to remotely control your computer.
 
-# ⛔️ Disclaimer
-**I'll don't take any responsibility for the use you will make of this bot**
+---
 
-# ⌨️ Commands
-`/start` It starts the bot and send a message<br />
-`/shutdown` It will shutdown your PC<br />
-`/restart` It will reboot your PC<br />
-`/cmd [varius command]` You can use It like Windows Command Promt<br />
-`/kill [app.exe]` It is a taskkill command<br />
-`/screenshot` It takes a screenshot of your PC<br />
-`/camera` It takes a picture of your webcam<br />
-`/browser` It open your browser<br />
-`/url [www.example.org]` It open the link (don't forgot the "www")<br />
-`/search [what you want to search in google]` It can search what your want in google<br />
+## ⚠️ Disclaimer
+**I take no responsibility for how you use this bot.**
 
-# ✍️ Example
-`/cmd mkdir testFolder` It will create a folder named _"testFolder"_ at the current path<br />
-`/kill chrome.exe` It will close Google Chrome<br />
-`/url www.github.com` It will open GitHub in your PC browser<br />
-`/search best restaurant in Italy` It will search _"best restaurant in Italy"_ in Google<br />
+---
+
+## 🎮 Available Commands
+Here is the list of available commands:
+
+### 🔹 Basic Commands
+- `/start` - Starts the bot and sends a welcome message
+
+### 🖥️ System Control
+- `/shutdown` - Shuts down the PC
+- `/restart` - Reboots the PC
+
+### 🛠️ Advanced Tools
+- `/cmd [command]` - Executes a command in the Windows Command Prompt
+- `/kill [app.exe]` - Terminates a specific process
+- `/screenshot` - Captures a screenshot of the PC
+- `/camera` - Takes a picture using the webcam
+
+### 🌍 Web Navigation
+- `/browser` - Opens the browser
+- `/url [www.example.com]` - Opens the specified website in the browser
+- `/search [query]` - Searches the specified text on Google
+
+---
+
+## 📌 Usage Examples
+Here are some practical examples:
+
+> Creates a folder named **testFolder** in the current directory.
+```bash
+/cmd mkdir testFolder
+```
+
+
+> Closes Google Chrome.
+```bash
+/kill chrome.exe
+```
+
+
+> Opens GitHub in the PC browser.
+```bash
+/url www.github.com
+```
+
+
+> Searches for "best restaurant in Italy" on Google.
+```bash
+/search best restaurant in Italy
+```
+
+
 
 
