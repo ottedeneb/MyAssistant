@@ -1,11 +1,10 @@
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
 
 <p align="center">
   <img src="Logo.png" width="200" alt="MyAssistant Logo"/>
 </p>
 
-# 🤖 MyAssistant
+# MyAssistant
 **MyAssistant** is a **Python**-based Telegram bot that allows you to remotely control your computer.
 
 ---
@@ -15,16 +14,14 @@
 
 ---
 
-## 🎮 Available Commands
+## Available Commands
 Here is the list of available commands:
 
 ### 🔹 Basic Commands
 - `/start` - Starts the bot and sends a welcome message
-
-### 🖥️ System Control
 - `/shutdown` - Shuts down the PC
 - `/restart` - Reboots the PC
-
+  
 ### 🛠️ Advanced Tools
 - `/cmd [command]` - Executes a command in the Windows Command Prompt
 - `/kill [app.exe]` - Terminates a specific process
@@ -38,7 +35,7 @@ Here is the list of available commands:
 
 ---
 
-## 📌 Usage Examples
+## 📌 Examples
 Here are some practical examples:
 
 > Creates a folder named **testFolder** in the current directory.
@@ -46,18 +43,15 @@ Here are some practical examples:
 /cmd mkdir testFolder
 ```
 
-
 > Closes Google Chrome.
 ```bash
 /kill chrome.exe
 ```
 
-
 > Opens GitHub in the PC browser.
 ```bash
 /url www.github.com
 ```
-
 
 > Searches for "best restaurant in Italy" on Google.
 ```bash
